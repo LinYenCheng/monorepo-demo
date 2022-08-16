@@ -5,6 +5,7 @@
     "api": "apps/api",
     "api-interfaces": "libs/api-interfaces",
     "demo": "apps/demo",
-    "demo-e2e": "apps/demo-e2e"
+    "demo-e2e": "apps/demo-e2e",
+    "monorepo-api": "apps/monorepo-api"
   }
 }

@@ -1,0 +1,62 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/monorepo-api/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nxrocks/nx-spring-boot:build",
+      "options": {
+        "root": "apps/monorepo-api"
+      }
+    },
+    "test": {
+      "executor": "@nxrocks/nx-spring-boot:test",
+      "options": {
+        "root": "apps/monorepo-api"
+      }
+    },
+    "clean": {
+      "executor": "@nxrocks/nx-spring-boot:clean",
+      "options": {
+        "root": "apps/monorepo-api"
+      }
+    },
+    "format": {
+      "executor": "@nxrocks/nx-spring-boot:format",
+      "options": {
+        "root": "apps/monorepo-api"
+      }
+    },
+    "format-check": {
+      "executor": "@nxrocks/nx-spring-boot:format-check",
+      "options": {
+        "root": "apps/monorepo-api"
+      }
+    },
+    "run": {
+      "executor": "@nxrocks/nx-spring-boot:run",
+      "options": {
+        "root": "apps/monorepo-api"
+      }
+    },
+    "serve": {
+      "executor": "@nxrocks/nx-spring-boot:serve",
+      "options": {
+        "root": "apps/monorepo-api"
+      }
+    },
+    "buildImage": {
+      "executor": "@nxrocks/nx-spring-boot:buildImage",
+      "options": {
+        "root": "apps/monorepo-api"
+      }
+    },
+    "buildInfo": {
+      "executor": "@nxrocks/nx-spring-boot:buildInfo",
+      "options": {
+        "root": "apps/monorepo-api"
+      }
+    }
+  },
+  "tags": []
+}
